@@ -1,0 +1,117 @@
+// mat-sidenav-container{
+//     height: 100%; 
+//     background-color: rgb(255, 255, 255)!important; /* Set the background color to white */
+//     color: rgb(255, 255, 255)!important;
+// }
+// mat-sidenav-content{
+//     background-color:rgb(255, 255, 255);
+// }
+// mat-sidenav, mat-sidenav-content {
+//     padding : 4px
+    
+// }
+
+// mat-sidenav{
+//     background-color: rgb(231, 107, 69);
+//     width: 80px;
+// }
+
+
+mat-grid-tile{
+    background-color: rgb(104, 67, 67);
+
+}
+
+#custom-sidenav {
+    width: 100px;
+    background-color: rgb(231, 107, 69);
+    color: white;
+   
+ height: 100vh;
+  }
+  
+  .x{
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 100px;
+    scale: 150%;
+    width: 100%;
+    
+    
+}
+.first{
+  height: 170px;
+  margin-top: 70px;
+  position: relative;
+  left: 5px;
+  top: 50px;
+  scale: 200%;
+  width: 100%;
+}
+  .custom-sidenav ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .custom-sidenav li {
+    margin-bottom: 10px;
+  }
+  
+  .custom-sidenav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  #custom-navbar {
+    
+    color: rgb(15, 15, 15);
+  }
+  
+  #custom-navbar ul {
+    list-style: none;
+   padding: 0;
+    display: flex;
+    margin: 10px;
+  }
+  
+
+  #custom-navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+  }
+  #custom1{
+    list-style: none;
+
+   
+    font-size: 18px;
+     display: flex;
+  }
+  #custom3{
+    list-style: none;
+
+    margin: 15px;
+     display: flex;
+  }
+  .second{
+  margin: 3px;
+  scale: 180%;
+  color: rgb(75, 73, 72);
+  }
+  .btn-toggle {
+   
+    flex: 1;
+    text-align: center;
+   border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  .btn-toggle.active {
+    background-color: rgb(231, 107, 69);
+    color: #fff;
+  }
